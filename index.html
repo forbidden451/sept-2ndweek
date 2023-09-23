@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student Portal</title>
+</head>
+<body>
+    <div class="nav">
+        <h1>Student Portal</h1>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Search" style="width:90%;font-size: 24px;padding:10px 0px"> 
+        <input type="submit" style="width: 9.5%;font-size: 24px;padding:10px 0px;background: black;color: white;" value = "Search">
+    </div>
+
+    <div class="sort">
+        <div class="atoz">
+            <button id="sortbyAtoZ">Sort A → Z</button>
+        </div>
+
+        <div class="atoz">
+            <button id="sortbyZtoA">Sort Z → A</button>
+        </div>
+
+        <div class="atoz">
+            <button id="sortButton">Sort By Marks</button>
+        </div>
+
+        <div class="atoz">
+            <button id="passing">Sort By Passing</button>
+        </div>
+
+        <div class="atoz">
+            <button id="byClass">Sort By Class</button>
+        </div>
+
+        <div class="atoz">
+            <button id="sortGender">Sort By Gender</button>
+        </div>
+    </div>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <table id="genderTable">
+        <thead>
+
+        </thead>
+
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
